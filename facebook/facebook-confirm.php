@@ -39,7 +39,7 @@
    header('location:index.php');
   }else{
       $facebook_permissions = ['email'];
-      $facebook_login_url = $facebook_helper->getLoginUrl('https://maja-etact.herokuapp.com/', $facebook_permissions);
+      $facebook_login_url = $facebook_helper->getLoginUrl('https://exam-acer.herokuapp.com/', $facebook_permissions);
 
       $facebook_login_url = '<div align="center"><a href="'.$facebook_login_url.'"><img src="images/facebook.png" /></a></div>';
   }
