@@ -5,6 +5,7 @@
   if($login_button == true){
     include('facebook/facebook-confirm.php');
   }
+	error_reporting(E_ALL); ini_set('display_errors', 1);
 ?>
 <!DOCTYPE html>
 <html>
